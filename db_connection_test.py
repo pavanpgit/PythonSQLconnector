@@ -1,5 +1,7 @@
-import mysql-connector
-from mysql-connector import Error
+# pip3 install mysql-connector-python
+
+import mysql.connector
+from mysql.connector import Error
 
 db_host = "172.17.0.2"
 db_username = "root"
