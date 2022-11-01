@@ -1,6 +1,6 @@
 import os
-import mysql-connector-python
-from mysql-connector import Error
+import mysql.connector
+from mysql.connector import Error
 
 host = os.environ.get('DB_HOST')
 user = os.environ.get('DB_USER')
