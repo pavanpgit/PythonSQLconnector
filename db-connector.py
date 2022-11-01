@@ -1,5 +1,5 @@
 import os
-import mysql-connector
+import mysql-connector-python
 from mysql-connector import Error
 
 host = os.environ.get('DB_HOST')
